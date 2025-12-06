@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/InsightEd-Mobile-App/sw.js', { scope: '/InsightEd-Mobile-App/' })})}
